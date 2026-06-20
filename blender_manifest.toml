@@ -1,0 +1,20 @@
+id = "IA GET"
+version = "1.0.0"
+name = "ChatGPT Bridge"
+tagline = "Control Blender from ChatGPT through WebSocket"
+maintainer = "Huy Tran Minh"
+type = "add-on"
+
+website = "https://github.com/tranminhhuydn/AI-GET"
+
+tags = ["Development", "System"]
+
+blender_version_min = "5.1.0"
+
+license = [
+    "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+    "2026 Huy Tran Minh",
+]
