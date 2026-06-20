@@ -1,4 +1,4 @@
-id = "IA GET"
+id = "AI_GET"
 version = "1.0.0"
 name = "ChatGPT Bridge"
 tagline = "Control Blender from ChatGPT through WebSocket"
