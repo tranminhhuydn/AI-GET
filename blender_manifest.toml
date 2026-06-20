@@ -20,3 +20,6 @@ license = [
 copyright = [
     "2026 Huy Tran Minh",
 ]
+wheels = [
+    "./wheels/websockets-10.4-cp310-cp310-win_amd64.whl"
+]
