@@ -18,12 +18,16 @@ By connecting ChatGPT with Blender, the add-on allows natural-language instructi
 # Viet Nam
 
 
-Addon này là một cầu nối (Bridge) giữa ChatGPT và Blender thông qua WebSocket, cho phép gửi mã Python từ bên ngoài vào Blender để thực thi tự động. Điều này cho phép:
+Addon này là một cầu nối (Bridge) giữa ChatGPT và Blender thông qua WebSocket, cho phép gửi mã Python từ bên ngoài vào Blender để thực thi tự động. 
 
-Tạo vật thể
-Chỉnh sửa scene
-Gán vật liệu
-Render
-Điều khiển camera
-Tạo animation
-Thao tác bất kỳ với API Blender
+Điều này cho phép:
+
+* Tạo vật thể
+* Chỉnh sửa scene 
+* Gán vật liệu 
+* Render 
+* Điều khiển camera 
+* Tạo animation 
+* Thao tác bất kỳ với API Blender
+
+
