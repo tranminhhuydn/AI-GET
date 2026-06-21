@@ -1,7 +1,8 @@
 # ENGLISH
 
+[ ](https://www.youtube.com/watch?v=j9ok8ofDCMk)
 
-<https://www.youtube.com/watch?v=j9ok8ofDCMk>
+[ ![Blender and AI](https://img.youtube.com/vi/j9ok8ofDCMk/default.jpg)](https://www.youtube.com/watch?v=j9ok8ofDCMk)
 
 
 This add-on acts as a bridge between ChatGPT and Blender through WebSocket communication, allowing Python code to be sent from external applications directly into Blender for automatic execution.
@@ -20,7 +21,7 @@ By connecting ChatGPT with Blender, the add-on allows natural-language instructi
 
 ## 🛠 Setup Instructions
 
-We need extention chrome 
+We need extention chrome
 
 <https://github.com/tranminhhuydn/AI-webssocket>
 
