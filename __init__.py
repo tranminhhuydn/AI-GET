@@ -1,9 +1,9 @@
 bl_info = {
-    "name": "AI Get",
+    "name": "AI_GET",
     "author": "tranminhhuydn@gmail.com",
     "version": (1, 0),
-    "blender": (5, 0, 0), # Thay đổi theo phiên bản Blender của bạn (ví dụ: 3, 6, 0)
-    "location": "View3D > Sidebar > AI Get",
+    "blender": (5, 1, 0), # Thay đổi theo phiên bản Blender của bạn (ví dụ: 3, 6, 0)
+    "location": "View3D > Sidebar > AI_GET",
     "description": "Điều khiển Blender bằng câu lệnh tự nhiên thông qua Gemini or ChatGPT",
     "category": "Development",
 }
@@ -13,7 +13,8 @@ import asyncio
 import threading
 import queue
 import json
-import websockets
+# import websockets
+from . import websockets
 import re
 import traceback
 
@@ -310,12 +311,12 @@ class GPT_OT_Stop(bpy.types.Operator):
 
 class GPT_PT_Panel(bpy.types.Panel):
 
-    bl_label = "AI GET"
+    bl_label = "AI_GET"
     bl_idname = "GPT_PT_PANEL"
 
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'AI GET'
+    bl_category = 'AI_GET'
 
     def draw(self, context):
 
